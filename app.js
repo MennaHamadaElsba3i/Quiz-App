@@ -65,7 +65,7 @@ function addquesdata(obj, count) {
           radioAns.dataset.answer = obj[`answer_${i}`];
 
           let thelabel = document.createElement('label');
-          thelabel.htmlFor = `ans${i}`;
+          thelabel.htmlFor = `answer_${i}`;
           let lebelText = document.createTextNode(obj[`answer_${i}`]);
           if (i === 1) {
                radioAns.checked = true;
