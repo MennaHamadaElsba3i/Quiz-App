@@ -4,6 +4,7 @@
 
 body {
      font-family: Tahoma, Arial;
+     font-size: 30px;
 }
 
 .quiz-app {
@@ -53,7 +54,7 @@ body {
 }
 
 .quiz-app .answers-area .answer input[type="Radio"]:checked+label {
-     color: #0075ff;
+     color: #7B2CBF;
 }
 
 .quiz-app .answers-area .answer label {
@@ -67,7 +68,7 @@ body {
 }
 
 .quiz-app .submit-button {
-     background-color: #0075ff;
+     background-color: #7B2CBF;
      display: block;
      width: 100%;
      padding: 15px;
@@ -105,7 +106,7 @@ body {
 }
 
 .quiz-app .bullets .spans span.on {
-     background-color: #0075ff;
+     background-color: #7B2CBF;
 }
 
 .quiz-app .results span {
@@ -121,5 +122,12 @@ body {
 }
 
 .quiz-app .results span.perfect {
-     color: #0075ff;
+     color: #7B2CBF;
+}
+.results {
+     padding: 20px;
+     text-align: center;
+     font-weight: bold;
+     margin-top: 20px;
+     background-color: white;
 }
