@@ -142,7 +142,7 @@ function countdown(duaration, count) {
                secs = parseInt(duaration % 60);
 
                mins = mins < 10 ? `0${mins}` : mins;  // 00:00
-               secs = mins < 10 ? `0${secs}` : secs;
+               secs = secs < 10 ? `0${secs}` : secs;
 
                coundownelment.innerHTML = `${mins}:${secs}`;
 
